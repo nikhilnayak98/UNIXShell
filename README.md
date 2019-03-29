@@ -17,6 +17,7 @@ Input from 'stdin' in an infinite loop till an explicit "exit" is entered.
 The corresponding output is printed to 'stdout'.
 
 Ex:
+
 <code>assume that PWD == /home/user</code>
 
 <code>bash prompt:~$ ./a.out</code>
