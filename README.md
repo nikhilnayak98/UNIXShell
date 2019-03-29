@@ -17,15 +17,23 @@ Input from 'stdin' in an infinite loop till an explicit "exit" is entered.
 The corresponding output is printed to 'stdout'.
 
 Ex:
-assume that PWD == /home/user
-bash prompt:~$ ./a.out
-nikhil@shell:/home/user$ ls
-shell.c history.txt a.out
-nikhil@shell:/home/user$ gfhj
-gfhj: command not found
-nikhil@shell:/home/user$ exit
-Closed
-bash prompt:~$
+<code>assume that PWD == /home/user</code>
+
+<code>bash prompt:~$ ./a.out</code>
+
+<code>nikhil@shell:/home/user$ ls</code>
+
+<code>shell.c history.txt a.out</code>
+
+<code>nikhil@shell:/home/user$ gfhj</code>
+
+<code>gfhj: command not found</code>
+
+<code>nikhil@shell:/home/user$ exit</code>
+
+<code>Closed</code>
+
+<code>bash prompt:~$</code>
 
 
 # Implementation Details
